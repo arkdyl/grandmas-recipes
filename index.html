@@ -1,0 +1,135 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>Grandma's Recipes</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="top">
+            <h1>Grandma's Recipes</h1>
+            <p>recipes from my Polish grandma :]</p>
+            <button id="btn" onclick="darkMode()">Dark Mode</button>
+        </div>
+
+        <div id="menu">
+            <a href="#pierogi">Pierogi</a>
+            <a href="#szarlotka">Szarlotka</a>
+            <a href="rosol">Rosół</a>
+            <a href="nalesniki">Naleśniki</a>
+        </div>
+
+        <div class="content">
+            <p style="text-align:center; margin-top:20px;"
+                <button onclick="random()">Random recipe</button>
+                <span id="res"></span>
+            </p>
+
+            <p class="small">you can click the ingredients to crosss them out</p>
+            <div class="recipe" id="pierogi">
+                <h2>Pierogi</h2>
+                <p>They take like 1.5 hour to make.</p>
+                <h3>Ingredients</h3>
+                <ul class="ingredients">
+                    <li>500g flour</li>
+                    <li>about 250ml of warm water</li>
+                    <li>2 spoons of oil</li>
+                    <li>600g of potatoes</li>
+                    <li>250g of white cheese [twaróg]</li>
+                    <li>2 onions</li>
+                    <li>salt, pepper</li>
+                </ul>
+                
+                <h3>How to make?</h3>
+                <ol>
+                    <li>Cook the potatoes and mash them</li>
+                    <li>Fry the onions</li>
+                    <li>Mix potatoes, cheese, onions, add salt and a lot of pepper</li>
+                    <li>Make dough from flour, water and oil</li>
+                    <li>Roll it out, cut circles with a glass, put filling inside and close them</li>
+                    <li>Cook in boiling water until they come up</li>
+                </ol>
+
+                <p>psst.. grandma always says the dough has to be soft</p>
+            </div>
+            <div class="recipe" id="szarlotka">
+                <h2>Szarlotka [apple cake]</h2>
+
+                <h3>Ingredients</h3>
+                <ul class="ingredients">
+                    <li>400g flour</li>
+                    <li>200g butter [must be cold!!!]</li>
+                    <li>100g of powdered sugar</li>
+                    <li>3 egg yolks</li>
+                    <li>1 teaspoon baking powder</li>
+                    <li>apples, around 1.5kg</li>
+                    <li>cinnamon</li>
+                </ul>
+
+                <h3>How to make?</h3>
+                <ol>
+                    <li>Mix flour, butter, sugar, baking powder and yolks into a dough</li>
+                    <li>Cut it in half and put in the fridge for 30 minutes</li>
+                    <li>Grate the apples, add cinnamon and cook them a little</li>
+                    <li>Half of the dough goes on the bottom, then apples, then grate the rest of the dough on top</li>
+                    <li>Bake 180 degrees for 50 minutes</li>
+                </ol>
+                <p class="small">use sour apples, sweet ones don't work as good</p>
+            </div>
+            <div class="recipe" id="rosol">
+                <h2>Rosół [chicken soup]</h2>
+                <p>Every Sunday at grandma's house :] [very delicous]</p>
+
+                <h3>Ingredients</h3>
+                <ul class="ingredients">
+                    <li>1 chicken</li>
+                    <li>3 liters of water</li>
+                    <li>3 carrots</li>
+                    <li>1 parsley root</li>
+                    <li>a piece of celery</li>
+                    <li>1 leek</li>
+                    <li>1 onion</li>
+                    <li>allspice, bay leaf</li>
+                </ul>
+
+                <h3>How to make?</h3>
+                <ol>
+                    <li>Chicken in cold water, cook slowly, take the foam off the top</li>
+                    <li>Cook on low heat for 1.5h</li>
+                    <li>Add vegetables and cook 1 hour more</li>
+                    <li>Add salt. Eat with noodles</li>
+                </ol>
+            </div>
+            <div class="recipe" id="nalesniki">
+                <h2>Naleśniki</h2>
+                <p>Thin pancakes with sweet cheese.</p>
+
+                <h3>Ingredients</h3>
+                <ul class="ingredients">
+                    <li>250g flour</li>
+                    <li>500ml milk</li>
+                    <li>2 eggs</li>
+                    <li>salt</li>
+                    <li>400g of white cheese [twaróg]</li>
+                    <li>sugar [grandma never measures it]</li>
+                    <li>some sour cream</li>
+                </ul>
+
+                <h3>How to make?</h3>
+                <ol>
+                    <li>Mix flour, milk, eggs and salt</li>
+                    <li>Mix cheese with sugar and cream</li>
+                    <li>Fry them on a hot pan, they have to be thin</li>
+                    <li>Put cheese in and roll them</li>
+                </ol>
+            </div>
+        </div>
+
+        <div id="footer">
+            binarek, 2026
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
